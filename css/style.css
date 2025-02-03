@@ -1,8 +1,116 @@
-.div-object {
-    width: 350px;
-    height: 220px;
-    padding: 15px 10px 20px 10px;
-    margin: 30px;
-    border: 2px dashed red;
-    background-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap');
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+  }
+
+.conteiner {
+width: 1170px;
+margin: 0 auto;
+padding: 0 15px;
+}
+.main-item-link {
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #212121;
+list-style-type: none;
+}
+span {
+    color: #2196f3
+}
+.main-address {
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.address-mail {
+    cursor: pointer;
+    color: #2196f3;
+}
+.hero-title {
+    font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff
+
+}
+.hero-div {
+    background-color: #2f303a;
+    width: 1800;
+    height: 600;
+}
+.hero-button {
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+color: #fff;
+text-align: center;
+
+}
+
+.third-subtitle {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    
+}
+.third-description {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.main-list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center; 
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 32 50 32 93;
+}
+.third-list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center; 
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 94 0 94 0
+}
+.main-div {
+width: 1000;
+height: 1000;
+}
+.address-mail {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
+
+.address-tel {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #757575;
 }

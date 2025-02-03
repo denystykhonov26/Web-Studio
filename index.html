@@ -7,93 +7,105 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header >
-        <a href="#"><img src="./img/WebStudio.png" alt="Логотип" width="144" height="20"/>
+    <header class="header">
+        <div class="header-conteiner">
     <nav>
-        <ul>
-            <li><a href="#"><h2>Студія</h2></a></li>
-            <li><a href="#"><h2>Портфоліо</h2></a></li>
-            <li><a href="#"><h2>Контакти</h2></a></li>
+        <div class="main-div">
+        <ul class="main-list">
+            <li><h2 class="main-title"><span>Web</span>Studio</h2></li>
+            <li class="main-item"><a class="main-item-link" href="#"><h2>Студія</h2></a></li>
+            <li class="main-item"><a class="main-item-link" href="#"><h2>Портфоліо</h2></a></li>
+            <li class="main-item"><a class="main-item-link" href="#"><h2>Контакти</h2></a></li>
+            <li class="main-item">
+                <a class="address-mail" href="mailto:devstudio@gmail.com">info@devstudio.com</a>
+                     <a class="address-tel" href="tel::+380987654321">0987654321</a>
+            </li>
         </ul>
+    </div>
+    </div>
     </nav>
-    <address>
-       <a href="mailto:devstudio@gmail.com">info@devstudio.com</a>
-            <a href="tel::+380987654321">0987654321</a>
-    </address>
+    
 </header>
 <main>
     <section>
-<div>
+<div class="conteiner">
 
-
-    <h1>
+<div class="hero-div">
+    <h1 class="hero-title">
         Ефективні рішення для вашого бізнесу
     </h1>
 
     
+
+<button class="hero-button">Замовити послугу</button>
 </div>
-<button>Замовити послугу</button>
+</div>
 </section>
 <section>
-<ul>
-    <li>
-        <h2>УВАГА ДО ДЕТАЛЕЙ</h2>
-        <h3>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</h3></li>
-        <li><h2>ПУНКТУАЛЬНІСТЬ</h2>
-        <h3>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</h3></li>
-        <li>
-            <h2>ПЛАНУВАННЯ</h2>
-            <h3>Так само консультація з широким активом значною мірою зумовлює.</h3>
+    <div class="conteiner">
+<ul class="third-list">
+    <li class="third-item">
+        <h2 class="third-subtitle">УВАГА ДО ДЕТАЛЕЙ</h2>
+        <h3 class="third-description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</h3></li>
+        <li class="third-item"><h2 class="third-subtitle">ПУНКТУАЛЬНІСТЬ</h2>
+        <h3 class="third-description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</h3></li>
+        <li class="third-item">
+            <h2 class="third-subtitle">ПЛАНУВАННЯ</h2>
+            <h3 class="third-description">Так само консультація з широким активом значною мірою зумовлює.</h3>
         </li>
-        <li>
-        <h2>СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-        <h3>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</h3>
+        <li class="third-item">
+        <h2 class="third-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+        <h3 class="third-description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</h3>
         </li>
+        </section>
+        <section>
+            <div class="conteiner">
+    
+            <h2 class="occupation-title">Чим ми займаємося</h2>
+        <ul class="occupation-list">
+            <li class="occupation-item">
+                <img class="occupation-photo" src="./img/img.png" alt="Пишемо коди" width="370" height="294"/>
+            </li>
+            <li class="occupation-item">
+                <img class="occupation-photo" src="./img/img (1).png" alt="Робимо дизайн" width="370" height="294"/>
+            </li>
+            <li class="occupation-item">
+                <img class="occupation-photo" src="./img/img (2).png" alt="Кольорова гамма">
+            </li>
     </ul>
-        <p>
-            <h2>Чим ми займаємося</h2>
-        </p>
-        <ul>
-            <li>
-                <img src="./img/img.png" alt="Пишемо коди" width="370" height="294"/>
-            </li>
-            <li>
-                <img src="./img/img (1).png" alt="Робимо дизайн" width="370" height="294"/>
-            </li>
-            <li>
-                <img src="./img/img (2).png" alt="Кольорова гамма">
-            </li>
-    </ul>
+</div>
 </section>
 <section>
-    <p><h2>Наша команда</h2></p>
-<ul>
-    <li>
-        <img src="./img/man.jpg" alt="Чоловік" width="270" height="260"/>
-        <h3>Ігор Дем'яненко</h3>
-        <h4>Product Designer</h4>
+    <h2 class="team-title">Наша команда</h2>
+    <div class="conteiner">
+<ul class="team-list">
+    <li class="team-item">
+        <img class="team-photo" src="./img/photos1/photos2/box 1.jpg" alt="computer" />
+        <h3 class="team-name">Ігор Дем'яненко</h3>
+        <h4 class="team-occupation">Product Designer</h4>
     </li>
-    <li>
-        <img src="./img/women.jpg" alt="Жінка" width="270" height="260"/>
-        <h2>Ольга Рєпіна</h2>
-        <h3>Frontend Developer</h3>
+    <li class="team-item">
+        <img class="team-photo" src="./img/photos1/photos2/box 2.png" alt="computer" />
+        <h3 class="team-name">Ольга Рєпіна</h3>
+        <h4 class="team-occupation">Frontend Developer</h4>
     </li>
-    <li>
-        <img src="./img/men1.jpg" alt="Чоловік1" width="270" height="260"/>
-        <h3>Микола Тарасов</h3>
-        <h4>Marketing</h4>
+    <li class="team-item">
+        <img class="team-photo" src="./img/photos1/photos2/img.png" alt="ipad" 
+        <h3 class="team-name">Микола Тарасов</h3>
+        <h4 class="team-occupation">Marketing</h4>
     </li>
-    <li>
-        <img src="./img/men3.jpg" alt="Чоловік2" width="270" height="260"/>
-        <h3>Михайло Єрмаков</h3>
-        <h4>UI Designer</h4>
+    <li class="team-item">
+        <img class="team-photo" src="" alt="" 
+        <h3 class="team-name">Михайло Єрмаков</h3>
+        <h4 class="team-occupation">UI Designer</h4>
     </li>
 </ul>
+</div>
 </section>
 </main>
 <footer>
     <section>
-<a href="#">WebStudio</a>
+<h2><span>Web</span>Studio</h2>
     <ul>
         <li>
             <h5>м. Київ, пр-т Лесі Українки, 26</h5>

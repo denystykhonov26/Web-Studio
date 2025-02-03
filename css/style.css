@@ -4,7 +4,7 @@
     --second-family: "Raleway", sans-serif;
   }
 
-.conteiner {
+.container {
 width: 1170px;
 margin: 0 auto;
 padding: 0 15px;
@@ -16,6 +16,7 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color: #212121;
 list-style-type: none;
+text-decoration: none;
 }
 span {
     color: #2196f3
@@ -42,11 +43,9 @@ text-align: center;
 color: #fff
 
 }
-.hero-div {
-    background-color: #2f303a;
-    width: 1800;
-    height: 600;
-}
+
+   
+
 .hero-button {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -57,7 +56,8 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #2196f3;
 color: #fff;
 text-align: center;
-
+margin: 0 auto;
+display: block;
 }
 
 .third-subtitle {
@@ -84,7 +84,7 @@ text-align: center;
     align-items: center; 
     justify-content: space-between;
     list-style-type: none;
-    margin: 32 50 32 93;
+    
 }
 .third-list {
     display: flex;
@@ -93,12 +93,10 @@ text-align: center;
     align-items: center; 
     justify-content: space-between;
     list-style-type: none;
-    margin: 94 0 94 0
+   
 }
-.main-div {
-width: 1000;
-height: 1000;
-}
+
+
 .address-mail {
     font-family: var(--font-family);
     font-weight: 500;
@@ -113,4 +111,100 @@ font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
+}
+.hero-section {
+background-color: #2F303A;
+padding: 200px 0;
+
+}
+.main-title {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+
+}
+.occupation-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+.occupation-photo {
+    width: 370px;
+    height: 294px;
+}
+.occupation-list {
+display: flex;
+flex-direction: row;
+gap: 30px;
+list-style-type: none;
+}
+.team-title {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.team-item{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+.team-photo {
+    width: 270px;
+height: 260px;
+}
+.team-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.team-occupation {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+}
+.footer-info {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-item {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #fff;
+}
+.footer-section {
+    background-color: #2F303A;
+    padding: 40px 0;
+}
+.footer-title {
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #fff;
+}
+.third-section {
+    margin: 94px;
+}
+.team-section {
+    margin: 188px;
 }
